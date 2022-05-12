@@ -78,7 +78,7 @@ def test_get_inputs():
     assert result.sort() == expected.sort()
 
 
-def test_get_outputs_to_modify():
+def test_get_outputs():
     test_data = {
         "copyright": "Copyright 2019-2021 Intelliseq",
         "name": "example name",
